@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #219D01;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: start;
+    width: 30px;
+    height: 120px;
+}
+
+.menu>a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    text-align: center;
+}
+
+.container>h1{
+    color: rgb(66, 64, 64);
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.container>img{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.container-conteudo{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 5%;
+    gap: 4%;
+}
+
+.container-conteudo>p{
+    color: rgb(66, 64, 64);
+    gap: 4%;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 35px;
+    margin-top: 30px;
+}
+
+
+.container-conteudo>img{
+    width: 50%;
+    
+}
+
+.conteudo>h2{
+    color: rgb(66, 64, 64);
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.conteudo>p{
+    color: rgb(66, 64, 64);
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 35px;
+    margin-top: 30px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 0%; /* Para centralizar verticalmente na página */
+    margin: 0 auto; /* Para centralizar horizontalmente */
+    width: 100%; /* Ajuste conforme necessário */
+    margin-bottom: 20px;
+}
+
+.formulario>.input{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.formulario>.input>label{
+    color: rgb(66, 64, 64);
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.formulario>.input>input{
+    border: 1px solid rgb(66, 64, 64);
+    padding: 10px;
+}
+
+.formulario>.input>input::placeholder{
+    color: rgb(66, 64, 64, 0.3);
+}
+
+.formulario>.input>textarea{
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px;
+}
+
+.container-servicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    text-align: center;
+}
+
+.container-servicos>h1{
+    color: rgb(66, 64, 64);
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.container-servicos>img{
+    margin-top: 30px;
+    width: 100% ;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    margin-top: 20px;
+    background-color: #219D01;
+    color: #fff;
+}
+
+.contato-footer{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    margin-top: 165px;
+    background-color: #219D01;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.container-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    text-align: center;
+   
+}
+
+.container-contato>h1{
+    margin-bottom: 20px;
+}
+
